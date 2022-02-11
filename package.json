@@ -1,6 +1,6 @@
 {
   "name": "cpg-plugin-discord",
-  "version": "v1.0.2",
+  "version": "v1.0.3",
   "description": "CPG Plugin for discord",
   "main": "./lib/src/index.js",
   "scripts": {
