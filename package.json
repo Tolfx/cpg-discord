@@ -1,15 +1,15 @@
 {
   "name": "cpg-plugin-template",
-  "version": "1.0.0",
+  "version": "v1.0.1",
   "description": "",
   "main": "./lib/src/index.js",
   "scripts": {
-    "build": "tsc --downlevelIteration",
+    "build": "tsc --project tsconfig.json",
     "fetch:submodules": "git submodule update --init --recursive",
     "fetch:submodules:update": "git submodule update --recursive --remote"
   },
   "keywords": [],
-  "author": "Tolfix",
+  "author": "Tolfx",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.3",

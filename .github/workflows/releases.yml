@@ -21,6 +21,12 @@ jobs:
       - name: Install
         run: npm install --force
 
+      # Get sub modules
+      - name: Sub modules 1
+        run: npm run fetch:submodules
+      - name: Sub modules 2
+        run: npm run fetch:submodules:update
+
       - name: build
         run: npm run build
 
