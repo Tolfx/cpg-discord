@@ -1,5 +1,5 @@
 {
-  "name": "cpg-plugin-template",
+  "name": "cpg-plugin-discord",
   "version": "v1.0.1",
   "description": "",
   "main": "./lib/src/index.js",
