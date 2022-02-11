@@ -1,7 +1,7 @@
 {
   "name": "cpg-plugin-discord",
-  "version": "v1.0.1",
-  "description": "",
+  "version": "v1.0.2",
+  "description": "CPG Plugin for discord",
   "main": "./lib/src/index.js",
   "scripts": {
     "build": "tsc --project tsconfig.json",
