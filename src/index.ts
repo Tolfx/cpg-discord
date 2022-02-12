@@ -11,7 +11,7 @@ const discord_webhook_url = process.env.DISCORD_WEBHOOK_URL ?? "";
 // Change name of the class.
 export = async function main()
 {
-    const Logger = (await import(`${BuildDir}/lib/Logger`)).default as ILoggingTypes;
+    const Logger = (await import(`${BuildDir}/Lib/Logger`)).default as ILoggingTypes;
     const MainEvent = (await import(`${BuildDir}/Events/Main.event`)).default as typeof mainEvent;
 
     if(!discord_webhook_url)
