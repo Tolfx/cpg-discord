@@ -30,6 +30,9 @@ jobs:
       - name: build
         run: npm run build
 
+      - name: clean up
+        run: rm -r ./lib/cpg-api
+
       - name: publish
         run: npm publish
         env:

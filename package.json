@@ -1,10 +1,10 @@
 {
   "name": "cpg-plugin-discord",
-  "version": "v1.0.4",
+  "version": "v1.0.5",
   "description": "CPG Plugin for discord",
   "main": "./lib/src/index.js",
   "scripts": {
-    "build": "tsc --project tsconfig.json",
+    "build": "tsc --project tsconfig.build.json",
     "fetch:submodules": "git submodule update --init --recursive",
     "fetch:submodules:update": "git submodule update --recursive --remote"
   },
