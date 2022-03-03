@@ -37,7 +37,6 @@ export = async function main()
             .attachFiles([attachment])
             .setTimestamp();
         sendWebhook("Invoice paid", {
-            text: `Invoice \`id #${invoice.id}\` has been paid.`,
             embeds: [embed],
         })
     });
@@ -53,7 +52,6 @@ export = async function main()
             .attachFiles([attachment])
             .setTimestamp();
         sendWebhook("Invoice created", {
-            text: `Invoice \`id #${invoice.id}\` has been created.`,
             embeds: [embed],
         })
     });
@@ -69,7 +67,6 @@ export = async function main()
             .attachFiles([attachment])
             .setTimestamp();
         sendWebhook("Invoice created", {
-            text: `Invoice \`id #${invoice.id}\` has been deleted.`,
             embeds: [embed],
         })
     });
@@ -85,7 +82,6 @@ export = async function main()
             .attachFiles([attachment])
             .setTimestamp();
         sendWebhook("Invoice updated", {
-            text: `Invoice \`id #${invoice.id}\` has been updated.`,
             embeds: [embed],
         })
     });
@@ -101,7 +97,6 @@ export = async function main()
             .attachFiles([attachment])
             .setTimestamp();
         sendWebhook("Invoice notified", {
-            text: `Invoice \`id #${invoice.id}\` has been notified.`,
             embeds: [embed],
         });
     });
